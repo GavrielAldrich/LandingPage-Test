@@ -1,0 +1,103 @@
+
+/* POP IT CONTAINER CSS */
+
+.popit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbf69;
+}
+.popit-img img{
+    height: 500px;
+}
+.popit-text{
+    position: absolute;
+    padding-right: 44rem;
+    color: white;
+}
+.popit-text h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.popit-text button{
+    border: 0px;
+    background-color: rgb(165, 254, 225);
+}
+.popit-text button p{
+    padding: 1px 20px;
+    margin: 0px;
+}
+
+
+/* WHAT IS POP IT CONTAINER CSS */
+.whatPopit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.whatPopit-text{
+    padding : 0px 20%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.whatPopit-text h1 {
+    font-size: 25px;
+}
+
+
+/* POP ITS SHOP CSS */
+.popitShop-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(165, 254, 225);
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+}
+.popitItems-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+.popitItems img{
+    height: 100px;
+}
+.popitItems button{
+    border: none;
+    background-color: #ffbf69;
+}
+.popitShop-container h1{
+    font-size: 25px;
+    
+    margin-bottom: 10px;
+}
+
+
+/* HOW TO USE AREA CSS */
+.howTo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.howTo-container img {
+    height: 250px;
+}
+.howTo-container .hand-image {
+    position: absolute;
+    padding-left: 50rem;
+}
+.howTo-container .howTo-textContainer{
+    position: absolute;
+    padding-right: 35rem;
+    padding-left: 4rem;
+}
+.howTo-container .howTo-textContainer h1{
+    font-size: 25px;
+}
